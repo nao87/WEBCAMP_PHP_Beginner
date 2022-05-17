@@ -1,6 +1,6 @@
 <?php
 
-function numToDouble(int $i)
+function numToDouble(int $i):int
 {
     $ret=$i*2;
     
@@ -10,7 +10,7 @@ function numToDouble(int $i)
 $num=numToDouble(10);
 echo"10を２倍にしたら{$num}になった\n";
 
-function numAdd(int$a,int$b)
+function numAdd(int$a,int$b):int
 {
     $ret=$a+$b;
     
