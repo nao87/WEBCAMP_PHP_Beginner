@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html long="ja">
+    <head>
+        <meta charset=UTF-8>
+    </head>
+    <body>
+        <h1>form test</h1>
+        <form action="./form2.php" method="POST">
+            password入力<input name="pw" type="password"><br />
+            radio
+            <label><input name="radio_a" type="radio" value="1"></label>
+            <label><input name="radio_a" type="radio" value="2"></label>
+            <label><input name="radio_a" type="radio" value="3"></label>
+            <br />
+            
+            checkedbox
+            <label><input name="check[]" type="checkbox" value="c1"></label>
+            <label><input name="check[]" type="checkbox" value="c2"></label>
+            <label><input name="check[]" type="checkbox" value="c3"></label>
+            <br />
+            
+            select
+            <select name="sele">
+                <option value="選択肢1">選択肢1</option></option>
+                <option value="選択肢2">選択肢2</option></option>
+                <option value="選択肢3">選択肢3</option></option>
+            </select><br />
+            
+            改行付きtext入力<textarea name="tarea" cols="50" rows="5">初期値</textarea><br />
+            隠れた入力<input name="hide" type="hidden" value="hidden string"><br />
+            <button type="submit">送信する</button>
+        </form>
+    </body>
+</html>
